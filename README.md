@@ -1,5 +1,7 @@
 # Country-Select
 
+[![Gem](https://github.com/fac/git-xargs-country-select858230771/actions/workflows/freeagent-gem.yml/badge.svg)](https://github.com/fac/git-xargs-country-select858230771/actions/workflows/freeagent-gem.yml)
+
 _Compatible with Rails 5.2_
 
 Provides a simple helper to get a HTML select list of countries.  The list of countries comes from the ISO 3166 standard.  While it is a relatively neutral source of country names, it may still offend some users.
