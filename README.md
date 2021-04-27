@@ -1,6 +1,6 @@
 # Country-Select
 
-[![Gem](https://github.com/fac/git-xargs-country-select858230771/actions/workflows/freeagent-gem.yml/badge.svg)](https://github.com/fac/git-xargs-country-select858230771/actions/workflows/freeagent-gem.yml)
+[![Gem](https://github.com/fac/country-select/actions/workflows/freeagent-gem.yml/badge.svg)](https://github.com/fac/country-select/actions/workflows/freeagent-gem.yml)
 
 _Compatible with Rails 5.2_
 
