@@ -5,7 +5,6 @@ name: FreeAgent Gem
 on:
   push:
     branches:
-      - main
       - master
   pull_request:
 
@@ -44,14 +43,14 @@ jobs:
 
     # Release production gem version from default branch
     - name: Release
-      if:   github.ref == 'refs/heads/main'
+      if:   github.ref == 'refs/heads/master'
       uses: fac/ruby-gem-push-action@v2
       with:
         key: github
 
     # PR branch builds will release pre-release gems
     - name: Pre-Release
-      if:   github.ref != 'refs/heads/main'
+      if:   github.ref != 'refs/heads/master'
       uses: fac/ruby-gem-push-action@v2
       with:
         key: github
