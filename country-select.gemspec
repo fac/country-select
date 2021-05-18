@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
 											'MIT-LICENSE'	]
 	s.homepage			= 'http://github.com/jamesds/country-select'
 
-    s.metadata["allowed_push_host"] = "http://rubygems.pkg.github.com/fac"
+    s.metadata["allowed_push_host"] = "https://rubygems.pkg.github.com/fac"
 
 	s.add_development_dependency "bundler", "~> 2.0"
 	s.add_development_dependency "rake", "~> 12.0"
